@@ -1,0 +1,145 @@
+*{margin:0;
+    padding:0;}
+body{
+   /*background-color: rgb(161, 216, 230);*/
+   overflow: hidden;
+   padding-bottom: 0px;
+padding-top: 0px;
+padding-right: 0px;
+padding-left: 0px;
+}
+.full-wrap{width: 100%;}
+.wrap{width:960px;
+    margin:0 auto;
+    display :block;
+}
+.header_bg{background:brown;
+    border-bottom:5px solid blueviolet;}
+#header{
+    background-color: brown;
+    
+    padding: 15px; 
+ 
+ text-align: center;
+    
+}
+#header h1{color: #fff;
+    font-family: Georgia;
+}
+#header p{color: rgb(54, 9, 160);
+    font-family: Georgia;}
+
+.nav_bg{background-color: #fff;
+    border-bottom:5px solid blueviolet;}
+ 
+#nav{
+    background-color: #fff;
+height:38px;
+
+
+}
+#nav ul{
+    background-color: #fff;
+    list-style-type:none;
+   
+   
+}
+#nav ul li{
+    float:left;
+    border-right: 4px solid blueviolet;
+    display:block;
+    overflow: hidden;
+   
+}
+#nav ul li:last-child{
+    border:none;
+}
+
+#nav ul li a{
+    text-decoration: none;
+    color:rgb(64, 39, 92);
+    padding: 10px 20px;
+    display:block;
+    font-family: Arial;
+    
+}
+#nav ul li a:hover{color:rgb(38, 192, 0)}
+#nav ul li {position:relative}
+#nav ul li ul {
+    position: absolute;
+    left: -99999px;
+
+}
+#nav ul li:hover ul{
+    left:20px;
+
+}
+#nav ul li ul li{
+    float:none;
+    
+   border-bottom:5px solid blueviolet;
+   border-right:5px solid blueviolet;
+    border-left:5px solid blueviolet;
+    background-color:#fff;
+    border-radius:10px solid blueviolet;
+}
+#nav ul li ul li { z-index:9999; }
+#nav ul li ul li:first-child{border-top: 4px solid blueviolet;}
+
+#nav ul li ul li:last-child{border-bottom: 5px solid blueviolet;
+border-radius: 10px;
+border-left:5px solid blueviolet;
+border-right: 5px solid blueviolet;}
+
+.slider_bg{background-color: #222222;}
+#slider img{width :960px;
+vertical-align:middle;}
+
+.cntnt_bg{background-color: #fff;
+    border-top:5px solid blueviolet;}
+#content-wrappper{
+    background-color:#fff ;
+    
+    padding: 10px;
+overflow: hidden;
+
+}
+
+#content{
+  width:500px;
+ margin-right:20px;
+ float: left;
+   
+}
+#content h2{color:orange}
+#sidebar{
+    width:300px;
+    float :left;
+   
+
+}
+#sidebar ul{
+    list-style-type:circle;
+   
+}
+
+#sidebar ul li a {
+    text-decoration:none; 
+    color: rgb(141, 16, 190);
+    padding:3px ;
+    display: block;
+}
+#sidebar h2{
+    color:orange;
+
+   
+}
+.foot_bg{background-color:brown;}
+#footer{
+  background-color: brown;
+  padding:15px;
+  text-align: center;
+}
+#footer p{
+    color:#fff;
+}
